@@ -102,6 +102,7 @@ body{
 
 /* Style the span inside the score section */
 .score-button span {
+  width: calc(100% / 2 - 8px);
   display: inline-block;
   margin-left: 8px; /* Add some space between "Score:" and the score number */
   font-weight: bold;
